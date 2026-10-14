@@ -1,1 +1,45 @@
-# WeatherStation_PRO
+# WeatherStation PRO ☀️
+
+**Aurora Build 0009.2 — ESP32 touchscreen weather station**
+
+WeatherStation PRO is a DIY touchscreen weather station for Arduino IDE and a compatible ESP32 3.2-inch display. Designed for makers and 3D printing enthusiasts.
+
+## Firmware download
+
+Click **Code → Download ZIP** to download the repository. The complete Aurora firmware will be added here.
+
+## Features
+
+- Current weather, humidity, feels-like temperature and wind
+- Five-day forecast and hourly weather information
+- Open-Meteo weather data
+- Wi-Fi and location configuration
+- Italian and English interface
+- Display settings and diagnostics
+
+## Requirements
+
+- ESP32 with compatible 3.2-inch TFT touchscreen
+- Arduino IDE with Espressif ESP32 board support
+- TFT_eSPI configured for your specific display
+- ArduinoJson 7.x
+- USB data cable
+
+## Installation
+
+1. Download the complete source code when available.
+2. Keep the `.ino`, `.h`, and `.cpp` files together in the Arduino sketch directory.
+3. Open the main `.ino` file with Arduino IDE.
+4. Configure the display driver, touchscreen and pin mappings for your board.
+5. Select your ESP32 board and USB port, then compile and upload.
+6. Configure Wi-Fi and location on first startup.
+
+**Hardware note:** Aurora Build 0009.2 uses GPIO 32 for the optional push button. Check the actual configuration before wiring.
+
+## MakerWorld
+
+Firmware repository for the WeatherStation PRO 3D-printable project. The MakerWorld link will be added after publication.
+
+## Status
+
+README published. Firmware upload pending; compilation and hardware compatibility have not yet been independently verified.
