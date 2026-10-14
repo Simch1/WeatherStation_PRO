@@ -6,7 +6,7 @@ WeatherStation PRO is a DIY touchscreen weather station for Arduino IDE and a co
 
 ## Firmware download
 
-Click **Code → Download ZIP** to download the repository. The complete Aurora firmware will be added here.
+Click **Code → Download ZIP** to download the repository. **Aurora Build 0009.2 is available now:** [Browse the Arduino source](./WeatherStation_PRO_Aurora_Build_0009_2/) · [Download the complete repository as ZIP](https://github.com/Simch1/WeatherStation_PRO/archive/refs/heads/main.zip).
 
 ## Features
 
@@ -27,7 +27,7 @@ Click **Code → Download ZIP** to download the repository. The complete Aurora 
 
 ## Installation
 
-1. Download the complete source code when available.
+1. Download the complete source code using the ZIP link above and extract it.
 2. Keep the `.ino`, `.h`, and `.cpp` files together in the Arduino sketch directory.
 3. Open the main `.ino` file with Arduino IDE.
 4. Configure the display driver, touchscreen and pin mappings for your board.
@@ -42,4 +42,4 @@ Firmware repository for the WeatherStation PRO 3D-printable project. The MakerWo
 
 ## Status
 
-README published. Firmware upload pending; compilation and hardware compatibility have not yet been independently verified.
+**Firmware uploaded:** Aurora Build 0009.2 (34 source and documentation files). Compilation and hardware compatibility have not yet been independently verified.
