@@ -36,6 +36,18 @@ Click **Code → Download ZIP** to download the repository. **Aurora Build 0009.
 
 **Hardware note:** Aurora Build 0009.2 uses GPIO 32 for the optional push button. Check the actual configuration before wiring.
 
+
+## Video tutorials
+
+Watch the project in action and learn how to set up Wi-Fi using your smartphone.
+
+| Tutorial | Watch on GitHub | Download MP4 |
+|---|---|---|
+| **WeatherStation PRO – Device Overview** | [Watch video](https://github.com/Simch1/WeatherStation_PRO/blob/main/WeatherStation_PRO_View.mp4) | [Download MP4](https://github.com/Simch1/WeatherStation_PRO/raw/refs/heads/main/WeatherStation_PRO_View.mp4) |
+| **WeatherStation PRO – Wi-Fi Setup** | [Watch video](https://github.com/Simch1/WeatherStation_PRO/blob/main/WeatherStation_PRO_WiFi.mp4) | [Download MP4](https://github.com/Simch1/WeatherStation_PRO/raw/refs/heads/main/WeatherStation_PRO_WiFi.mp4) |
+
+Both video tutorials are included in the repository ZIP download.
+
 ## MakerWorld
 
 Firmware repository for the WeatherStation PRO 3D-printable project. The MakerWorld link will be added after publication.
