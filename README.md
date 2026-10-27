@@ -1,12 +1,22 @@
 # WeatherStation PRO ☀️
 
-**Aurora Build 0009.2 — ESP32 touchscreen weather station**
+**Aurora Build 0009.4 — ESP32 touchscreen weather station**
 
 WeatherStation PRO is a DIY touchscreen weather station for Arduino IDE and a compatible ESP32 3.2-inch display. Designed for makers and 3D printing enthusiasts.
 
 ## Firmware download
 
-Click **Code → Download ZIP** to download the repository. **Aurora Build 0009.2 is available now:** [Browse the Arduino source](./WeatherStation_PRO_Aurora_Build_0009_2/) · [Download the complete repository as ZIP](https://github.com/Simch1/WeatherStation_PRO/archive/refs/heads/main.zip).
+**Latest stable firmware: Aurora Build 0009.4.** [Browse Build 0009.4 source](./WeatherStation_PRO_Aurora_Build_0009_4/) · [Download the complete repository as ZIP](https://github.com/Simch1/WeatherStation_PRO/archive/refs/heads/main.zip).
+
+To download, click **Code → Download ZIP**. Extract the archive and open the firmware folder for the build you want to use.
+
+## Firmware versions
+
+| Build | Changes | Source |
+|---|---|---|
+| **0009.4 (latest stable)** | Atmospheric pressure bar chart, hPa labels, and simplified, readable hour labels; Italian and English interface maintained. | [Build 0009.4](./WeatherStation_PRO_Aurora_Build_0009_4/) |
+| 0009.3 | Added the date and day of the week to the upper-left corner of the Home screen. | [Build 0009.3](./WeatherStation_PRO_Aurora_Build_0009_3/) |
+| 0009.2 | Previous firmware revision. | [Build 0009.2](./WeatherStation_PRO_Aurora_Build_0009_2/) |
 
 ## Features
 
@@ -16,6 +26,8 @@ Click **Code → Download ZIP** to download the repository. **Aurora Build 0009.
 - Wi-Fi and location configuration
 - Italian and English interface
 - Display settings and diagnostics
+- Date and weekday on the Home screen (Build 0009.3 onward)
+- Atmospheric pressure bar chart with hPa scale and readable hour labels (Build 0009.4 onward)
 
 ## Requirements
 
@@ -34,7 +46,7 @@ Click **Code → Download ZIP** to download the repository. **Aurora Build 0009.
 5. Select your ESP32 board and USB port, then compile and upload.
 6. Configure Wi-Fi and location on first startup.
 
-**Hardware note:** Aurora Build 0009.2 uses GPIO 32 for the optional push button. Check the actual configuration before wiring.
+**Hardware note:** GPIO 32 was used for the optional push button in Build 0009.2. Check the pin mapping in the firmware version you are installing before wiring.
 
 
 ## Video tutorials
@@ -62,4 +74,4 @@ Firmware repository for the WeatherStation PRO 3D-printable project. The MakerWo
 
 ## Status
 
-**Firmware uploaded:** Aurora Build 0009.2 (34 source and documentation files). Compilation and hardware compatibility have not yet been independently verified.
+**Latest stable revision:** Aurora Build 0009.4. The user has confirmed the firmware works on their Freenove ESP32 3.2-inch touchscreen. Hardware compatibility with other display boards has not been independently verified.
